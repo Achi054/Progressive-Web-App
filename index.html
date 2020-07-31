@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Modern PWA Weather React Application" />
+    <link rel="stylesheet" href="./app.css">
+    <link rel="icon" href="./images/WeatherForecastIcon.jpg" type="image/jpg">
+    <link rel="manifest" href="./manifest.json" />
+    <title>Weather Forecast PWA</title>
+</head>
+
+<body id="root">
+    <div class="main-container">
+        <div class="title">
+            Live Weather Forecast
+        </div>
+        <div>
+            <input type="text" class="search" id="search" value="" placeholder="Search...">
+        </div>
+        <div class="city" id="city">
+            <h2 class="city-name">
+                <span id="city-name-label"></span>
+            </h2>
+            <div class="city-temp">
+                <span id="city-temp-label"></span>
+                <sup id="city-temp-metric-label"></sup>
+            </div>
+            <div class="info">
+                <img class="city-icon" id="city-icon-link" />
+                <p id="city-weather-condition"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./service-worker-registration.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>

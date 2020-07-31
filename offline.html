@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Weather Forecaser PWA" />
+    <link rel="icon" href="../images/WeatherForecastIcon.jpg" type="image/jpg">
+    <title>Weather Forecast PWA</title>
+    <style type="text/css">
+        html,
+        body,
+        #root {
+            font: 0.9rem sans-serif;
+            background: #0a1f44;
+            color: #1e2432;
+            height: 100%;
+            margin: 0;
+        }
+
+        .main-container {
+            background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.418)), url('../images/HomeImage.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .main-container {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .title {
+            font-size: 5rem;
+            font-weight: bold;
+            margin-top: 10px;
+            color: #ffffff;
+            text-align: center;
+        }
+
+        .search {
+            font: 2.0rem sans-serif;
+            outline: none;
+            padding: 20px 7%;
+            border-radius: 20px;
+            border: none;
+            margin-bottom: 5%;
+            background: rgba(250, 250, 250, 0.85);
+        }
+
+        .city-name {
+            color: #ffffff;
+            font-size: 2em;
+        }
+    </style>
+</head>
+
+<body id="root">
+    <div class="main-container">
+        <div class="title">
+            Live Weather Forecast
+        </div>
+        <div>
+            <input type="text" class="search" value="" placeholder="Search...">
+        </div>
+        <h2 class="city-name">
+            <span>Please go online to check the current weather.</span>
+        </h2>
+    </div>
+</body>
+
+</html>
