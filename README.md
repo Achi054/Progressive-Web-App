@@ -15,4 +15,4 @@ Progressive web apps are a way to bring that native app feeling to a traditional
 
 ## Link
 
-[Site URL](https://relaxed-davinci-99bd67.netlify.app/)
+[https://weather-forecast-pwa.netlify.app](https://weather-forecast-pwa.netlify.app/)
