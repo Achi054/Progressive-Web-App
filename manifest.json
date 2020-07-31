@@ -4,9 +4,14 @@
 	"start_url": "index.html",
 	"icons": [
 		{
-			"src": "/images/HomeImage.jpg",
-			"type": "image/jpg",
-			"sizes": "1024x1024"
+			"src": "/images/WeatherForecastIcon.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/WeatherForecastIcon.png",
+			"type": "image/png",
+			"sizes": "512x512"
 		}
 	],
 	"display": "standalone",

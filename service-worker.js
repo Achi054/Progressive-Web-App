@@ -3,7 +3,7 @@ const assets = [
     'index.html',
     'offline.html',
     'images/HomeImage.jpg',
-    'images/WeatherForecastIcon.jpg',
+    'images/WeatherForecastIcon.png',
     'app.css',
     'app.js'
 ];
